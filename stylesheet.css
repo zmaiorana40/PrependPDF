@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  letter-spacing: .04em;
+  color: #444;
+}
+
+/*
+ * Formatting the header area
+ */
+header {
+  background-color: #DFB887;
+  height: 35px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 10px;
+}
+header h1.logo {
+  margin-left: 100;
+  margin-right: 100;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  float: left;
+}
+header h1.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/*
+ * Centering the body content
+ */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+div.home {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+div.about {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.pb_before {
+  page-break-before: always !important;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin: 40;
+  text-align: left;
+}
+h3 {
+  font-size: 0.9em;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: left;
+  letter-spacing: -1px;
+  color: #999;
+}
+th, td {
+  font-size: 1.0em;
+}
+hr{
+  height: 1px;
+  background-color: #444;
+  border: none;
+    }
+p {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 100;
+  margin-left: 100;
+}
+img {
+    background: #ffffff;
+    vertical-align: top;
+    max-height: 500px;
+    max-width: 1000px;
+}
+page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+@media print {
+  .new-page {
+    page-break-before: always;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  border-top: 1px solid #000;
+}
+
+.header {
+  font-size: 10.5px;
+  position: fixed;
+  top: -20px;
+  border-bottom: 1px solid #000;
+  overflow: hidden;
+}
+
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+.menu li {
+  display: inline;
+}
+.menu li + li {
+  margin-left: 35px;
+}
+.menu li a {
+  color: #444;
+  text-decoration: none;
+}
