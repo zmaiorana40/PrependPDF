@@ -24,7 +24,7 @@ The following libraries are required:
 
 ## Usage
 
-In its source form, PrependPDF is only intended for use by Schlesinger Library staff for Schlesinger collections. Interested users may adapt the source code for their own use, but any products may not use the names of Schlesinger Library, Harvard Radcliffe Institute, or Harvard University.
+In its source form, PrependPDF is only intended for use by Schlesinger Library staff for Schlesinger collections. Interested users may adapt the source code for their own use, but any products may not use the names of Schlesinger Library, Harvard Radcliffe Institute, Harvard University, or any collections material under copyright.
 
 ## Contact
 
