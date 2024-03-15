@@ -1,6 +1,6 @@
 # PrependPDF
 
-PrependPDF is a metadata collation and PDF manipulation tool for the Schlesinger Library, Harvard Radcliffe Institute. This tool is used to automate via Python script the merging, metadata extraction, and cover sheet generation for DIP PDFs of born-digital documents. PrependPDF is intended for use in the pre-deposit phase of the born-digital workflow following document export and PDF conversion and followed by PDF/A conversion and validation
+PrependPDF is a metadata collation and PDF manipulation tool for the Schlesinger Library, Harvard Radcliffe Institute. This tool is used to automate via Python script the merging, metadata extraction, and cover sheet generation for DIP PDFs of born-digital documents. PrependPDF is intended for use in the pre-deposit phase of the born-digital workflow following document export and PDF conversion and followed by PDF/A conversion and validation.
 
 ## Install
 
